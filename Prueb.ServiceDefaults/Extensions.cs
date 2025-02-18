@@ -27,7 +27,8 @@ public static class Extensions
         {
             // Turn on resilience by default
             http.AddStandardResilienceHandler();
-
+            var name = 20;
+            // inicializando
             // Turn on service discovery by default
             http.AddServiceDiscovery();
         });
